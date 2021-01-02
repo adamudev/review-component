@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.review-container {
+  background-color: #277df8;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.review-title h2 {
+  color: #fff;
+  font-size: 35px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.review-title h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 40%;
+  width: 120px;
+  height: 4px;
+  background-color: #2d2d2d;
+}
+
+.review-item {
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  background-color: #277df8;
+  width: 100%;
+  height: 100%;
+  top: -5px;
+  left: -5px;
+  border-radius: 50%;
+}
+
+h4 {
+  color: #277df8;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #2d2d2d;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.reviewer-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.review {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: #277df8;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button i.fa {
+  font-size: 20px;
+}

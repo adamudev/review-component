@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <title>Review Component</title>
+</head>
+<body>
+  
+  <main>
+    <section class="review-container">
+      <!-- Title -->
+      <div class="review-title">
+        <h2>Our Reviews</h2>
+      </div>
+
+      <!-- Review items -->
+      <article class="review-item">
+        <div class="image">
+          <img src="/images/user1.png" id="image" alt="">
+        </div>
+        <h4 id="reviewer"></h4>
+        <p class="reviewer-title" id="reviewer-title"></p>
+        <blockquote class="review" id="review"></blockquote>
+        <!-- Previous and Next Button -->
+        <div class="button">
+          <button class="previous">
+            <i class="fa fa-chevron-left"></i>
+          </button>
+          <button class="next">
+            <i class="fa fa-chevron-right"></i>
+          </button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
