@@ -13,10 +13,10 @@ body {
 
 .review-title h2 {
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .review-title h2::after {
@@ -31,11 +31,12 @@ body {
 
 .review-item {
   background-color: #fff;
-  width: 500px;
+  width: 50%;
+  min-height: 70vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
 }
 
 .image {
@@ -60,7 +61,7 @@ body {
   width: 100%;
   height: 100%;
   top: -5px;
-  left: -5px;
+  left: -10px;
   border-radius: 50%;
 }
 
@@ -79,9 +80,10 @@ h4 {
 }
 
 .review {
-  background-color: #ddd;
+  background-color: #277df8;
+  color: #fff;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
 }
 
 button {
@@ -96,4 +98,52 @@ button {
 
 button i.fa {
   font-size: 20px;
+}
+
+@media (max-width: 668px) {
+
+  .review-container {
+    padding: 10px;
+  }
+
+  .review-item {
+    width: 80%;
+    min-height: 70vh;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .reviewer-title {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .review {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  button {
+    background-color: #277df8;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  button i.fa {
+    font-size: 20px;
+  }  
 }

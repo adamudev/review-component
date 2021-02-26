@@ -3,28 +3,28 @@ const reviews = [
     id: 1,
     name: "Adamu Abubakar",
     title: "Software Developer",
-    image: "/images/user1.jpeg",
+    image: "https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ",
     review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   },
   {
     id: 2,
     name: "Shehu Saidu",
     title: "Software Developer",
-    image: "/images/user2.png",
+    image: "https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY",
     review: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
   },
   {
     id: 3,
     name: "Muhammad L. Adamu",
     title: "UX Designer",
-    image: "/images/user3.png",
+    image: "https://i.picsum.photos/id/1033/2048/1365.jpg?hmac=zEuPfX7t6U866nzXjWF41bf-uxkKOnf1dDrHXmhcK-Q",
     review: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
   },
   {
     id: 4,
     name: "Idris Imam A.",
     title: "Systems Architect",
-    image: "/images/user4.jpeg",
+    image: "https://i.picsum.photos/id/1035/5854/3903.jpg?hmac=DV0AS2MyjW6ddofvSIU9TVjj1kewfh7J3WEOvflY8TM",
     review: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   }
 ];
